@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.revature.services.UserServiceTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-05-17T16:58:43" hostname="DIGITALSTORM-PC" time="0.034">
+  <properties/>
+  <testcase name="checkExist()" classname="com.revature.services.UserServiceTest" time="0.011"/>
+  <testcase name="insertUser()" classname="com.revature.services.UserServiceTest" time="0.018"/>
+  <testcase name="validateUser()" classname="com.revature.services.UserServiceTest" time="0.003"/>
+  <system-out><![CDATA[2021-05-17 11:58:43 DEBUG UserService:22 - User{userName='xinyaozhu', passWord='111111', firstName='xinyao', lastName='zhu', userRole=1, email='null', id=609bedee9c2ff816a1be6645}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

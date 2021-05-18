@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<div class="mx-auto" style="width: 800px">
+    <br> <br>
+    <div class="container jumbotron bg-white">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <h3 class="text-center">File A New Reimbursement</h3>
+                <hr>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Amount: $</span>
+                    </div>
+                    <input type="text" id="Amount" class="form-control"
+                           aria-label="Amount (to the nearest dollar)">
+                </div>
+
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <label class="input-group-text" id="inputGroupSelect01">Reason:
+                        </label>
+                    </div>
+                    <select class="custom-select" id="rembType">
+                        <option selected>Choose...</option>
+                        <option value="1">Lodging</option>
+                        <option value="2">Travel</option>
+                        <option value="3">Food</option>
+                    </select>
+                </div>
+
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Description</span>
+                    </div>
+                    <textarea class="form-control" aria-label="With textarea" id="Desc"></textarea>
+                </div>
+
+                <div>
+                    <br>
+                    <button type="button" id="submit" class="btn btn-success">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</html>

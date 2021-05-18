@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.revature.services.ReimburseServiceTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-05-17T16:58:43" hostname="DIGITALSTORM-PC" time="0.092">
+  <properties/>
+  <testcase name="getPendingReimbs()" classname="com.revature.services.ReimburseServiceTest" time="0.023"/>
+  <testcase name="findByAm()" classname="com.revature.services.ReimburseServiceTest" time="0.004"/>
+  <testcase name="addReimbursement()" classname="com.revature.services.ReimburseServiceTest" time="0.043"/>
+  <testcase name="getUserReimbs()" classname="com.revature.services.ReimburseServiceTest" time="0.003"/>
+  <testcase name="getOldReimbs()" classname="com.revature.services.ReimburseServiceTest" time="0.016"/>
+  <system-out><![CDATA[2021-05-17 11:58:43 TRACE ReimburseService:66 - line 50 get g
+2021-05-17 11:58:43 TRACE ReimburseService:68 - [Reimbursement{amount=98.0, submitted=TS time:Sun May 16 19:20:37 CDT 2021 inc:1, resolved=null, description='1', Author='xinyaozhu', resolver=null, status=1, type=3, authorln='null', id=60a1b6d56560fe4537dd905b}, Reimbursement{amount=1000.0, submitted=TS time:Sun May 16 20:07:20 CDT 2021 inc:1, resolved=null, description='testR', Author='testR', resolver=null, status=1, type=1, authorln='null', id=60a1c1c80ccb013f5c2bd589}]
+2021-05-17 11:58:43 TRACE ReimburseService:75 - pending db
+2021-05-17 11:58:43 TRACE ReimburseService:86 - 111.0
+2021-05-17 11:58:43 TRACE ReimburseService:33 - 1000.0 1 testR
+Reimbursement{amount=1000.0, submitted=TS time:Mon May 17 11:58:43 CDT 2021 inc:1, resolved=null, description='testR', Author='testR', resolver=null, status=1, type=1, authorln='null', id=null}
+2021-05-17 11:58:43 TRACE ReimburseService:45 - Added Reimbursement
+2021-05-17 11:58:43 TRACE ReimburseService:58 - old db
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
