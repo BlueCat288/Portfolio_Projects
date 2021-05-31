@@ -1,0 +1,26 @@
+.signup-wrapper {
+    height: 50vh;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+
+.wrapper-button button {
+    color: white;
+    font: bolder;
+    height: 50px;
+    width: 100%;
+    margin: 0;
+    background: crimson;
+    border: none;
+    border-radius: 50px;
+}
+
+.wrapper-button button:hover {
+    background: rgb(161, 7, 38);
+}

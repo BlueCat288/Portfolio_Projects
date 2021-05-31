@@ -1,0 +1,129 @@
+.search-card {
+    height: 100hv;
+    width: 800px;
+    background-color: rgb(218, 188, 204);
+    padding-bottom: 2vh;
+}
+
+.card-wrapper{
+    border: 0.1em solid rgb(202, 202, 202);
+    padding: 2vh 2vh 2vh 2vh;
+    color: black;
+    border-radius: 10px;
+    background-position: center;
+    transition: 0.8s;
+    margin-bottom: 2em;
+}
+
+.card-wrapper:hover {
+    background: #e9ebec radial-gradient(circle, transparent 1%, #e9ebec 1%) center/15000%;
+    box-shadow: 0px 0px 20px 2px rgba(16,15,15,0.1);
+    -webkit-box-shadow: 0px 0px 20px 2px rgba(16,15,15,0.1);
+    -moz-box-shadow: 0px 0px 20px 2px rgba(16,15,15,0.1);
+}
+
+.card-wrapper:active {
+    background-color: #e9ebec;
+    background-size: 100%;
+    transition: 0s;
+}
+
+
+
+
+/* .card-wrapper:active {
+    background-color: #e85e4f;
+    transition: .1s ease-in-out;
+    color: white;
+} */
+
+/* span.ripple {
+    position: absolute;
+    transform: scale(0);
+    animation: ripple 600ms linear;
+    background-color: rgba(255,255,255,0.7);
+}
+
+@keyframes ripple {
+    to {
+        transform: scale(4);
+        opacity: 0;
+    }
+} */
+
+.img-wrapper {
+    width: 310px;
+    height: 230px;
+    position: relative;
+    overflow: hidden;
+}
+
+.img-wrapper img {
+    width: auto;
+    max-width: 310px;
+    height: auto;
+    max-height: 230px;
+}
+
+.img-wrapper img {
+    border-radius: 10px;
+}
+
+.img-wrapper img:hover {
+    opacity: .8;
+}
+.tag {
+    color: white;
+    background-color: #e85e4f;
+    padding: 0.5vh 0.5vh 0.5vh 0.5vh;
+    border-radius: 5px;
+}
+
+.tag-wrapper {
+    font: 5px;
+    padding-right: 0.2vh;
+}
+
+.tag:hover {
+    transition: 0.10s ease-in-out;
+    background-color: #51bcee;
+    cursor: pointer;
+}
+
+/* .contact-wrapper {
+    color: gray;
+} */
+.contact-wrapper {
+    text-align: left;
+}
+
+.contact-wrapper:active {
+    color: white;
+}
+
+.fa-icon-bookmark {
+    color: black;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.fa-icon-bookmark:hover {
+    text-decoration: none;
+    transition: 0.20s ease-in-out;
+    color: #e85e4f;
+    transform: scale(1.5);
+}
+
+.bookmark-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa-icon-bookmarked {
+    background-color: rebeccapurple;
+}

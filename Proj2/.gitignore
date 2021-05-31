@@ -1,0 +1,7 @@
+.DS_Store
+.DS_Store
+.idea
+*.iml
+.gradle
+
+Backend/yelpBackend/.gradle

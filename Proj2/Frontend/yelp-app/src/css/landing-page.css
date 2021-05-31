@@ -1,0 +1,40 @@
+.search-wrapper {
+    width: 50%;
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+
+.title-wrapper {
+    /* width: 50%;
+    position: fixed;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+
+    /* position: fixed; */
+    display: flex;
+    margin-top: 10%;
+    top: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.landing-wrapper {
+    width: auto;
+    height: 800px;
+    position: relative;
+    overflow: hidden;
+}
+
+.landing-wrapper img {
+    width: auto;
+    max-width: auto;
+    height: 1080px;
+    max-height: 1080px;
+}

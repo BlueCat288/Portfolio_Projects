@@ -1,0 +1,11 @@
+.detail-btn a {
+    color: black;
+}
+
+.detail-btn a {
+    text-decoration: none;
+}
+
+.button a:hover {
+    color: white;
+}
