@@ -39,6 +39,6 @@ Welp is a web application that uses the Yelp Fusion API to search for restaurant
 
 ## Contributors
 
-> Sam Laitha
-> Xinyao Zhu
-> Cody Phillips
+> Sam Laitha, 
+> Xinyao Zhu, 
+> Cody Phillips.
